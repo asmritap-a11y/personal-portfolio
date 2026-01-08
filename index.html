@@ -1,0 +1,205 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Asmrita Portfolio</title>
+    <link rel="stylesheet" href="ASP -Portfolio.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-text">
+            <p class="UI">Web Developer</p>
+            <h1>Hi, I'm <span> Asmrita</span><br>Pandey From India</h1>
+        </div>
+    </div>
+</div>
+
+<!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+
+            <div class="about-col-1">
+                <img src="a.jpg" alt="" height="90%" width="50%">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+ 
+                <p class="tab-p">
+                    As a passionate web developer,
+                    I specialize in creating responsive and user-friendly websites.
+                    My journey in web development began with a curiosity for how things
+                    work online,, leading me to explore HTML, CSS, JavaScript, and various 
+                      frameworks.  I enjoy solving problems and bringing ideas to life through code.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>Responsive Web Design</li>
+                        <li>Front-end Frameworks <span><br>(Bootstrap)</span></li>
+                        <li>Front-end <span><br>(C, C++)</span></li>
+                        <li>Basic knowledge of back-end technologies <span><br>(React.js, Express)</span></li>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>2025 - Current</span> Learning Web Development</li>
+                        <li><span>2024 - 2026</span> Bachelor's in Computer Application</li>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>DSA</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+                       
+                   <!-- services -->
+
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>Creating visually appealing and user-friendly website layouts using HTML, CSS, and design principles.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                      <i class="fa-solid fa-crop-simple"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and functional websites using front-end technologies like HTML, CSS, and JavaScript.</p>
+                      <a href="#">Learn more</a>
+                </div>
+                <div>
+                         <i class="fa-brands fa-app-store"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Ensuring websites adapt seamlessly to various devices and screen sizes for optimal user experience.</p>
+                      <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!---------------------- PORTFOLIO ----------------------->
+
+    <div class="work-section">
+        <div class="container">  
+            <h1 class="sub-title work"> My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="makeup.png" alt="" height="76%" width="80">
+                    <div class="layer">
+                           <h3>E-commerce Website</h3>
+                        <p>A fully functional e-commerce website with product listings, shopping cart, and secure checkout process.</p>
+                  <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="music.jpg" alt="">
+                     <div class="layer">
+                        <h3>Music Streaming Platform</h3>
+                        <p>A digital service that allows users to listen to songs online without downloading them.</p>
+                  <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"> 
+                    <img src="education.jpg" alt="" height="77%" width="80">
+                     <div class="layer">
+                        <h3>Online Learning Plateform</h3>
+                        <p>A modern way of education that uses the internet to provide study materials and virtual classes.</p>
+                  <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- ..................Contact.................... -->
+
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+               <h1 style="margin-left: 250px;" class="sub-title"> Contact Me</h1>
+               <p><i class="fa-sharp fa-solid fa-paper-plane"></i>asmritap@gmail.com</p>
+               <p><i class="fa-solid fa-square-phone"></i>9250095080</p>  
+               <div class="social-icons">
+                <a href="https://wa.me/qr/TIKXSGH2HUTJB1"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/public-profile/settings"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/asmrita_pandey_7?igsh=NzVpdXg5MWt1eHVk"><i class="fa-brands fa-instagram"></i></a>
+               </div>
+               <a href="cvv.jpg " download class="btn btn2">Downlode Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" class="text-box" name="Name" placeholder="Your Name" required>
+                        <input type="text" class="text-box" name="Email" placeholder="Your Email" required>
+                        <textarea name="" id=""rows="6" placeholder="Your Message"></textarea>
+                         <button class="btn btn3" type="submit">Submit</button>
+                    </form>
+            </div>
+         </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2026.<i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+
+
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontent = document.getElementsByClassName("tab-content");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcont of tabcontent){
+        tabcont.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+} 
+</script>
+
+</body>
+</html>
